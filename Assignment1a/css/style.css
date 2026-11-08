@@ -1,0 +1,152 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background-color: #e2edff;
+    line-height: 150%;
+}
+#container {
+    width: 85%;
+    margin: 30px auto;
+    background-color: white;
+}
+header {
+    margin: 0;
+    padding: 0;
+    background-color: navy;
+}
+
+h1 {
+    font-size: xx-large;
+    color: white;
+    padding: 1.5em .8em .5em;
+    margin: 0;
+    background: navy;
+}
+
+#tagline {
+    background: #bed8f3;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    border-top: 3px solid #7da5d8;
+    border-bottom: 3px solid #7da5d8;
+    padding: .7em 1em;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    color: navy;
+    font-size: 160%;
+    font-weight: normal;
+    border-bottom: 2px solid #bed8f3;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #241374;
+}
+
+
+#content {
+    display: flex;
+}
+
+nav {
+    flex: 1;
+    min-height: 600px;
+    background-color: #d4e5f8;
+    padding-top: 15px;
+}
+
+main {
+    flex: 5;
+    padding: 25px;
+    background-color: white;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #9bbce3;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #339999;
+    text-decoration: underline;
+}
+
+nav ul li a:active {
+    color: orange;
+}
+
+p {
+    color: navy;
+}
+
+
+
+.profile {
+    width: 180px;
+    height: 200px;
+    float: right;
+    margin-left: 20px;
+    border: 4px solid #7da5d8;
+}
+
+
+figure {
+    display: inline-block;
+    width: 27%;
+    vertical-align: top;
+    margin: 1%;
+    padding: 10px;
+    background-color: #f0f6ff;
+    border: 1px solid #bed8f3;
+    border-bottom: 4px solid navy;
+}
+
+.photo {
+    width: 100%;
+    height: 180px;
+    border: 2px solid #7da5d8;
+}
+
+
+
+
+
+
+table#events tr:hover {
+    background: #c5e3ed;
+}
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: navy;
+    color: white;
+}

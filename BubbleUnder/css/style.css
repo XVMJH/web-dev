@@ -2,18 +2,10 @@ p {
     color: navy;
 }
 
-
-
-
 nav ul {
    list-style-type: none;
    padding: 0;
 }
-
-
-
-
-
 nav ul li a:link, nav ul li a:visited {
   color: white;
   text-decoration: none;
@@ -124,6 +116,7 @@ img.feature {
 }
 #content {
 	display: flex;
+  
 }
 
 nav {
