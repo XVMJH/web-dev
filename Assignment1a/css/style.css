@@ -11,16 +11,17 @@ body {
     background-color: #e2edff;
     line-height: 150%;
 }
-#container {
-    width: 85%;
-    margin: 30px auto;
-    background-color: white;
-}
+
+
 header {
     margin: 0;
     padding: 0;
     background-color: navy;
+   
+    background-repeat: repeat-x;
+    background-size: auto 100%;
 }
+
 
 h1 {
     font-size: xx-large;
@@ -149,4 +150,18 @@ footer {
     text-align: center;
     background-color: navy;
     color: white;
+}
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+nav {
+    flex: 1 1 20%;
+}
+
+main {
+    flex: 5 1 80%;
 }
