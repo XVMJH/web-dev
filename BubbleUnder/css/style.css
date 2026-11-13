@@ -125,9 +125,13 @@ nav {
     background:  url(../images/backgrounds/nav-bg.jpg) no-repeat;
 }
 
+
+
 main {
   flex:5;
   padding-left:1em;
+
+
 }
 
 nav ul li  {
@@ -193,6 +197,43 @@ figcaption {
 figcaption span {
   font-weight: normal;
   color: gray;
+}
+.form-row {
+   	display: flex;
+}
+
+label {
+   flex: 0 1 20%;
+   font-weight: bold;
+   font-size: small;
+   color:blue;
+}
+
+form input,
+  form  select {
+    flex: 1; 
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+form button {
+    padding: 1em; 
+    background: blue;
+    color: white;
+    border: 0;
+	border-radius:5%;
+}
+  
+form fieldset {
+   	border: 0; 
+}
+  
+.check > label {
+    display: block;
+}
+
+form {
+	margin-bottom:1em;
 }
 
 
